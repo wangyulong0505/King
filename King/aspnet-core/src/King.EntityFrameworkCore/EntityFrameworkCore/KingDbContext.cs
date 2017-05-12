@@ -13,7 +13,7 @@ namespace King.EntityFrameworkCore
         public KingDbContext(DbContextOptions<KingDbContext> options)
             : base(options)
         {
-
+            //
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
